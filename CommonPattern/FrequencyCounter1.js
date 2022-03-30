@@ -54,7 +54,7 @@ function RefactoredApproach(arr1, arr2) {
       return false;
     }
 
-    if (frequencyCounter2[key] !== frequencyCounter1[key]) {
+    if (frequencyCounter2[key ** 2] !== frequencyCounter1[key]) {
       return false;
     }
   }
